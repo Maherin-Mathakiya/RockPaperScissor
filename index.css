@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+h1{
+    background-color: #081d35;
+    color: white;
+    height: 4rem;
+    line-height: 4rem;
+}
+.choice{
+    height: 165px;
+    width: 165px;
+}
+.choice:hover{
+    cursor: pointer;;
+}
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+.msg-container{
+    margin-top: 6rem;
+}
+#msg{
+    background-color: #081d35;
+    color: white;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
